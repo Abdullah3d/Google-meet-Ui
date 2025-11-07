@@ -12,14 +12,108 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 </head>
 
-<body>
+<body class="bg-[#1E1F23] text-white font-sans h-screen flex flex-col">
+    
     <!-- Top Section -->
     <div class="flex items-center justify-between px-4 py-2 border-b border-b-700">
         <div class="flex items-center space-x-2">
             <i class="fa-solid fa-arrow-up-from-bracket w-5 h-5"></i>
             <span class="text-sm">Abdullah Ibrahim(You, presenting)</span>
         </div>
-        <button class="bg-[#3C4043] px-3 py-2 rounded-md text-sm hover:bg-[#5F6368] ">Stop Presenting</button>
+        <button class="bg-[#3C4043] px-3 py-2 rounded-2xl text-sm hover:bg-[#5F6368] ">Stop Presenting</button>
+    </div>
+    <!-- Main Areas -->
+
+    <div class="flex flex-1 flex-col lg:flex-row">
+        <div class="flex-1 flex items-center justify-center bg-[#292A2D] relative p-6">
+            <div class="text-center max-w-md">
+                <p class="text-sm text-gray-300 mb-2">You Are Presenting</p>
+                <p class="text-sm text-gray-300 mb-4">To avoid an infinity mirror, don’t share your entire screen or
+                    browser
+                    window.
+                    Share just a tab or a different window instead.</p>
+                <div class="space-x-3">
+                    <button class="bg-[#3C4043] px-4 py-2 rounded-2xl hover:bg-[#5F6368] text-sm transition">Show my
+                        screen
+                        anywhere</button>
+                    <button class="bg-[#3C4043] px-4 py-2 rounded-2xl hover:bg-[#5F6368] text-sm transition">Stop
+                        presenting</button>
+                </div>
+            </div>
+        </div>
+        <!-- Participants section -->
+        <div class="w-full lg:w-[400px] bg-[#202124] flex flex-col space-y-2 p-3">
+            <div class="bg-[#5E512E] rounded-xl flex items-center justify-center flex-1 border-2 border-yellow-500 p-4">
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full overflow-hidden border-full border-yellow-200 mx-auto mb-2 ">
+                        <img src="https://i.postimg.cc/6504XzRr/unnamed.webp" alt="image1"
+                            class="w-full h-full object-cover">
+                    </div>
+                    <p class="text-sm">Sraban Nadimul Islam Bhuyan</p>
+                </div>
+            </div>
+            <div class="bg-[#3A4A63] rounded-xl flex items-center justify-center flex-1 border-2 border-blue-500 p-4">
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full overflow-hidden border-full border-blue-500 mx-auto mb-2">
+                        <img src="https://i.postimg.cc/1z49br0L/Whats-App-Image-2025-03-31-at-20-06-45-fa93f07b.jpg"
+                            alt="image2" class="w-full h-full object-cover">
+                    </div>
+                    <p class="text-sm">Abdullah Ibrahim</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom section -->
+    <div
+        class="bg-[#202124] border-t border-gray-700 px-6 py-3 flex flex-col sm:flex-row justify-between items-center gap-3">
+        <div class="text-sm text-gray-300 text-center sm:text-left">11:10 PM | cuh-mqui-rvp</div>
+
+        <div class="flex flex-wrap justify-center space-x-2">
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-microphone"></i>
+            </button>
+
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-video"></i>
+            </button>
+
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </button>
+
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-user-group"></i>
+            </button>
+
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-hand"></i>
+            </button>
+
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-comment-dots"></i>
+            </button>
+
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+
+            <button class="bg-red-600 p-3 rounded-full hover:bg-red-700 transition">
+                <i class="fa-solid fa-phone"></i>
+            </button>
+        </div>
+
+        <div>
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-info"></i>
+            </button>
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-users"></i> </button>
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-message"></i> </button>
+            <button class="bg-[#3C4043] p-3 rounded-full hover:bg-[#5F6368] transition">
+                <i class="fa-solid fa-dice-six"></i> </button>
+        </div>
     </div>
 </body>
 
